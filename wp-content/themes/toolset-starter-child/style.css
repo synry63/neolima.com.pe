@@ -2543,6 +2543,10 @@ input[type=number]::-webkit-outer-spin-button {
     .wdpu-image img{
         height: 400px!important;
     }
+    #menu-main-menu-new{
+        margin-left:-10px;
+        width: 670px;
+    }
 }
 /* only chrome */
 @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
