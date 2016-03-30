@@ -2062,10 +2062,41 @@ input[type=number]::-webkit-outer-spin-button {
     display: none;
 }
 
-
+/* Error 404 */
+.error-new{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+}
+.text-error{
+    text-align: center;
+    padding: 10px;
+}
+.text-error a{
+    color: #eda900;
+}
+.text-error a:hover{
+    color: #018ed3;
+}
+.hide-error{
+    display: none;
+}
 
 /*** MEDIA QUERY ***/
 @media only screen and (max-width: 801px) { /* NO DESKTOP */
+
+    /* Error 404 */
+    .show-error{
+        display: none;
+    }
+    .hide-error{
+        display: block;
+    }
+
+    /* Fin Error 404*/
 
     /*#menu-seccion{
         padding-right: 10px;
