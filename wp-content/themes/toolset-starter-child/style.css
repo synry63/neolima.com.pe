@@ -829,7 +829,7 @@ a{
 }
 #modelos-seccion .ver-seccion .tablas-wrap.camaro table thead th:nth-child(1){
     width: 25%;
-    padding: 0px 0px 25px 0px;
+    /*padding: 0px 0px 25px 0px;*/
 }
 
 #modelos-seccion .ver-seccion .tablas-wrap.spark-lite table thead th{
@@ -863,7 +863,7 @@ a{
     width: 25%;
 }
 #modelos-seccion .ver-seccion .tablas-wrap.captiva table thead th{
-    width: 18.75%;
+    width: 15%;
 }
 #modelos-seccion .ver-seccion .tablas-wrap.captiva table thead th:nth-child(1){
     width: 25%;
@@ -969,6 +969,7 @@ a{
     background: #000000;
     color: #ffffff;
     text-transform: uppercase;
+    vertical-align: middle;
     font-style: normal;
     font-size: 15px;
     padding: 15px 0px 15px 0px;
