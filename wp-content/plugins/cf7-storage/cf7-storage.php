@@ -987,8 +987,10 @@ class cf7_storage {
                 ->setCellValue('G1', 'Celular')
                 ->setCellValue('H1', 'Modelo selecionado')
                 ->setCellValue('I1', 'Uso')
-                ->setCellValue('J1', 'Fecha solicitud')
-                ->setCellValue('K1', 'Hora solicitud');
+                ->setCellValue('J1', 'Mensaje')
+                ->setCellValue('K1', 'Fecha solicitud')
+                ->setCellValue('L1', 'Hora solicitud');
+
         }
         else{
             $objPHPExcel->getActiveSheet()->setTitle('Correos');
